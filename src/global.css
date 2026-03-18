@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lexend:wght@100..900&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: local('gilroy-extrabold'), url("/assets/fonts/Gilroy-ExtraBold.ttf") format("truetype");
+}
+
+@theme {
+  --font-serif: "Abril Fatface", serif;
+  --font-sans: "Lexend", sans-serif;
+  --font-gilroy: "Gilroy-ExtraBold", sans-serif;
+
+  /* Colors  */
+  --color-primary: #D50133;
+  --color-primary-light: #FFF3F6;
+  --color-primary-lighter: #FEE6ED;
+
+  --color-disabled: #C2C2C2;
+  --color-white: #FFFFFF;
+  --color-background: #F4F6FA;
+  --color-wink-pricing: #FF980A;
+
+  --color-input-bg: #F6F7FA;
+  --color-input-border: #DBDBDB;
+  --color-placeholder: #B2B4BF;
+  --color-wink-pricing-light: #F1F8FF;
+
+  --color-text-body: #6F767E;
+  --color-icons: #292D32;
+  --color-tags: #110C1E;
+  --color-black: #000000;
+
+  --color-dark-bg: #000000;
+  --color-dark-text: #ffffff;
+
+  /* Typography  */
+  --text-h1: 60px;
+  --text-h2: 45px;
+  --text-h3: 32px;
+  --text-h4: 28px;
+  --text-h5: 22px;
+
+  --text-body-xl: 24px;
+  --text-body-lg: 20px;
+  --text-body: 16px;
+  --text-small: 14px;
+  --text-tiny: 12px;
+}
