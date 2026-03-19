@@ -23,14 +23,14 @@ const WhyOnScene = () => {
             <div className="w-[95%] md:w-[88%] lg:w-[85%] xl:w-[85%] max-w-360 flex flex-col gap-12 lg:gap-16 xl:gap-30">
                 {/* Heading */}
                 <div data-aos="fade-up" className="text-center w-full">
-                    <h2 className="text-4xl md:text-5xl lg:text-h1 font-bold font-gilroy leading-12.75 text-black">
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-h1 font-bold font-gilroy leading-12.75 text-black">
                         Why <span className="text-primary">On Scene</span>?
                     </h2>
                 </div>
                 <div className="flex flex-col xl:flex-row items-center justify-between gap-10 lg:gap-8">
                     {/* Left Text */}
                     <div data-aos="fade-right" className="w-full xl:w-[40%] flex flex-col gap-6 lg:gap-8 text-center xl:text-left">
-                        <h3 className="text-[30px] lg:text-h2 font-bold font-gilroy leading-[1.2] text-black">
+                        <h3 className="text-[24px] sm:text-[30px] lg:text-h2 font-bold font-gilroy leading-[1.2] text-black">
                             Connect With Someone Special, <span className="text-primary">In Your Favorite Places</span>
                         </h3>
                     </div>

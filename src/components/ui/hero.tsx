@@ -17,9 +17,9 @@ const Hero = () => {
         <div data-aos="fade-right" className="w-full lg:w-[50%] flex flex-col gap-5 md:gap-17.5 lg:gap-5 font-gilroy lg:font-serif font-extrabold lg:font-normal text-left lg:text-left items-left lg:items-start">
           <div className="flex flex-col gap-2 lg:gap-4.5">
             <div>
-              <h1 className="text-h4 md:text-h2 lg:text-h1 leading-[1.15] text-black">
+              <h1 className="text-h3 md:text-h2 lg:text-h1 leading-[1.15] text-black">
                 Connect In{" "}
-                <span className="text-h4 md:text-h2 lg:text-h1 leading-[1.15] text-primary">
+                <span className="text-h3 md:text-h2 lg:text-h1 leading-[1.15] text-primary">
                   Real Life
                 </span>
               </h1>

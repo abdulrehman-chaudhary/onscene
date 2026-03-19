@@ -46,12 +46,12 @@ const MobileInterface = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-h3 font-normal font-serif leading-1 text-black">
+                            <h2 className="text-h4 sm:text-h3 font-normal font-serif leading-1 text-black">
                                 Mobile Interface
                             </h2>
                         </div>
                         <div>
-                            <p className="text-lg text-text-body leading-[100%] max-w-96 font-sans font-normal">
+                            <p className="text-base sm:text-lg text-text-body leading-[100%] max-w-96 font-sans font-normal">
                                 Meet real people in real places. Find compatible singles.
                                 Check in, get seen!
                             </p>
@@ -68,7 +68,7 @@ const MobileInterface = () => {
                                 alt="Apple"
                                 className="w-6 h-6 brightness-0 invert"
                             />
-                            <span className="text-[18px] font-normal font-sans">
+                            <span className="text-[15px] sm:text-[18px] font-normal font-sans">
                                 Apple Store
                             </span>
                         </button>
@@ -81,7 +81,7 @@ const MobileInterface = () => {
                                 alt="Play Store"
                                 className="w-6 h-6"
                             />
-                            <span className="text-[18px] font-normal font-sans">
+                            <span className="text-[15px] sm:text-[18px] font-normal font-sans">
                                 Play Store
                             </span>
                         </button>

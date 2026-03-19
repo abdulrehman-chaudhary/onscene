@@ -7,9 +7,9 @@ const Connections = () => {
             <div className="w-[95%] md:w-[88%] lg:w-[85%] xl:w-[73%] max-w-360 relative z-10 flex flex-col justify-center items-center gap-8 sm:gap-10 xl:gap-10">
                 {/* Header */}
                 <div data-aos="fade-up" className="text-center flex flex-col sm:flex-row flex-wrap justify-center items-center gap-2">
-                    <h2 className="text-h3 md:text-h2 leading-12.75 font-normal font-serif text-black">
+                    <h2 className="text-h4 sm:text-h3 md:text-h2 leading-9 md:leading-12.75 font-normal font-serif text-black">
                         A Smarter Way To{" "}
-                        <span className="text-h3 md:text-h2 leading-12.75 font-normal font-serif text-primary">
+                        <span className="text-h4 sm:text-h3 md:text-h2 leading-9 md:leading-12.75 font-normal font-serif text-primary">
                             Spark Meaningful Connections
                         </span>
                     </h2>

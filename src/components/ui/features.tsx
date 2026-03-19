@@ -44,15 +44,15 @@ const Features = () => {
       <div className="w-[95%] md:w-[88%] lg:w-[85%] xl:w-[84%] max-w-360 relative z-10 flex flex-col justify-center items-center gap-8 sm:gap-10 xl:gap-20">
         {/* Header */}
         <div data-aos="fade-up" className="text-center md:w-1/2 lg:w-full">
-          <h2 className="text-h3 md:text-h2 leading-12.75 font-extrabold lg:font-normal font-gilroy lg:font-serif text-black">
+          <h2 className="text-h4 sm:text-h3 md:text-h2 leading-12.75 font-extrabold lg:font-normal font-gilroy lg:font-serif text-black">
             Features Of{" "}
-            <span className="text-h3 md:text-h2 leading-12.75 font-extrabold lg:font-normal font-gilroy lg:font-serif text-primary">
+            <span className="text-h4 sm:text-h3 md:text-h2 leading-12.75 font-extrabold lg:font-normal font-gilroy lg:font-serif text-primary">
               On Scene
             </span>
           </h2>
         </div>
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-15 lg:gap-15 xl:gap-y-15 xl:gap-x-11.25 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-15 xl:gap-y-15 xl:gap-x-11.25 w-full">
           {featuresData.map((feature, index) => (
             <div
               key={index}
@@ -68,7 +68,7 @@ const Features = () => {
                 />
               </div>
               <div className="flex flex-col gap-3.75 xl:w-[90%] leading-[100%]">
-                <h3 className="text-body-xl font-normal font-gilroy text-black">
+                <h3 className="text-body-lg sm:text-body-xl font-normal font-gilroy text-black">
                   {feature.title}
                 </h3>
                 <p className="text-sm font-medium text-text-body">
