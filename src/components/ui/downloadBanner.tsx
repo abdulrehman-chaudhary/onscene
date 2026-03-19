@@ -8,7 +8,7 @@ const DownloadBanner = () => {
             <div className="w-[95%] md:w-full lg:w-[85%] xl:w-[84%] max-w-360 relative z-10 ">
                 <div className="flex flex-col lg:flex-row items-center justify-between bg-wink-pricing-light rounded-3xl p-5 lg:px-0 lg:pt-0 lg:p-0 relative min-h-110 gap-10 sm:gap-15 md:gap-20 lg:gap-5">
                     {/* Left Side */}
-                    <div className="w-full lg:w-1/2 flex justify-center lg:justify-start lg:pl-12 relative min-h-50 md:min-h-87.5 lg:min-h-110">
+                    <div data-aos="fade-right" className="w-full lg:w-1/2 flex justify-center lg:justify-start lg:pl-12 relative min-h-50 md:min-h-87.5 lg:min-h-110">
                         <img
                             src="/assets/images/mobiles-remove.png"
                             alt="On Scene App interface"
@@ -16,7 +16,7 @@ const DownloadBanner = () => {
                         />
                     </div>
                     {/* Right Side */}
-                    <div className="w-full lg:w-1/2 xl:w-[40%] flex flex-col justify-center items-center lg:items-start text-center gap-5 lg:text-left z-20 md:pb-16 lg:pb-0 lg:pr-1 xl:pr-2">
+                    <div data-aos="fade-left" className="w-full lg:w-1/2 xl:w-[40%] flex flex-col justify-center items-center lg:items-start text-center gap-5 lg:text-left z-20 md:pb-16 lg:pb-0 lg:pr-1 xl:pr-2">
                         <div>
                             <p className="font-bold text-[18px] text-black tracking-wide font-sans">
                                 Over 500+ Downloads

@@ -43,7 +43,7 @@ const Features = () => {
     >
       <div className="w-[95%] md:w-[88%] lg:w-[85%] xl:w-[84%] max-w-360 relative z-10 flex flex-col justify-center items-center gap-8 sm:gap-10 xl:gap-20">
         {/* Header */}
-        <div className="text-center md:w-1/2 lg:w-full">
+        <div data-aos="fade-up" className="text-center md:w-1/2 lg:w-full">
           <h2 className="text-h3 md:text-h2 leading-12.75 font-extrabold lg:font-normal font-gilroy lg:font-serif text-black">
             Features Of{" "}
             <span className="text-h3 md:text-h2 leading-12.75 font-extrabold lg:font-normal font-gilroy lg:font-serif text-primary">
@@ -56,6 +56,8 @@ const Features = () => {
           {featuresData.map((feature, index) => (
             <div
               key={index}
+              data-aos="fade-up"
+              data-aos-delay={`${index * 100}`}
               className="flex flex-col items-center text-center gap-4"
             >
               <div className="relative flex h-25 w-25 items-center justify-center">

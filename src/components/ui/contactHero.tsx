@@ -56,7 +56,7 @@ const ContactHero = () => {
           </div>
         </div>
         {/* Text */}
-        <div className="relative z-20">
+        <div data-aos="zoom-in" className="relative z-20">
           <h1 className="text-4xl md:text-5xl lg:text-[44px] xl:text-h1 font-extrabold font-gilroy text-black text-center">
             Contact Us
           </h1>

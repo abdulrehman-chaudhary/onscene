@@ -14,18 +14,18 @@ const Hero = () => {
       </div>
       <div className="w-[95%] md:w-[88%] lg:w-[85%] xl:w-[85%] max-w-360 relative z-10 flex flex-col-reverse lg:flex-row items-center gap-10">
         {/* Left Side */}
-        <div className="w-full lg:w-[50%] flex flex-col gap-5 md:gap-17.5 lg:gap-5 font-gilroy lg:font-serif font-extrabold lg:font-normal text-left lg:text-left items-left lg:items-start">
+        <div data-aos="fade-right" className="w-full lg:w-[50%] flex flex-col gap-5 md:gap-17.5 lg:gap-5 font-gilroy lg:font-serif font-extrabold lg:font-normal text-left lg:text-left items-left lg:items-start">
           <div className="flex flex-col gap-2 lg:gap-4.5">
             <div>
-              <h1 className="text-h3 md:text-h2 lg:text-h1 leading-[1.15] text-black">
+              <h1 className="text-h4 md:text-h2 lg:text-h1 leading-[1.15] text-black">
                 Connect In{" "}
-                <span className="text-h3 md:text-h2 lg:text-h1 leading-[1.15] text-primary">
+                <span className="text-h4 md:text-h2 lg:text-h1 leading-[1.15] text-primary">
                   Real Life
                 </span>
               </h1>
             </div>
             <div>
-              <p className="text-h5 font-normal font-sans leading-none text-text-body">
+              <p className="text-body lg:text-h5 font-normal leading-none font-sans text-text-body">
                 Imagine knowing exactly where to go to find compatible singles
                 in your area. On Scene provides you with a curated map of
                 popular local hotspots – bars, coffee shops, restaurants, gyms
@@ -69,7 +69,7 @@ const Hero = () => {
           </div>
         </div>
         {/* Right Side */}
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+        <div data-aos="fade-left" className="w-full lg:w-1/2 flex justify-center lg:justify-end">
           <img
             src="/assets/images/herosection-right-image.png"
             alt="On Scene App"

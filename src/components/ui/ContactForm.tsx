@@ -22,7 +22,7 @@ const ContactForm = () => {
 
   return (
     <section className="bg-white flex justify-center items-center py-10 md:py-16 xl:py-22.5">
-      <div className="w-[95%] md:w-[88%] lg:w-[85%] xl:w-[84%] max-w-360 flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-24">
+      <div data-aos="fade-up" className="w-[95%] md:w-[88%] lg:w-[85%] xl:w-[84%] max-w-360 flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-24">
         {/* Left Column */}
         <div className="flex-1 flex flex-col gap-10 lg:gap-12.5 w-full lg:max-w-[65%]">
           <div>

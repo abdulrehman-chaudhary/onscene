@@ -36,7 +36,7 @@ const MobileInterface = () => {
                     />
                 </div>
                 {/* Left Side */}
-                <div className="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start text-center lg:text-left z-20 gap-10 order-2 lg:order-1 relative">
+                <div data-aos="fade-right" className="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start text-center lg:text-left z-20 gap-10 order-2 lg:order-1 relative">
                     <div className="flex flex-col gap-8 items-center lg:items-start">
                         <div className="rounded-full flex items-center justify-center shadow-sm">
                             <img
@@ -88,7 +88,7 @@ const MobileInterface = () => {
                     </div>
                 </div>
                 {/* Right Side */}
-                <div className="w-full flex justify-center lg:justify-end relative order-1 lg:order-2 max-h-112.5 md:h-150 lg:max-h-100 lg:max-w-130 xl:max-h-141.5 xl:max-w-180.75 ">
+                <div data-aos="fade-left" className="w-full flex justify-center lg:justify-end relative order-1 lg:order-2 max-h-112.5 md:h-150 lg:max-h-100 lg:max-w-130 xl:max-h-141.5 xl:max-w-180.75 ">
                     <img
                         src="/assets/images/mobile.png"
                         alt="On Scene Mobile Interface"

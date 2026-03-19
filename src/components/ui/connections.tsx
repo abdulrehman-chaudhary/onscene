@@ -6,7 +6,7 @@ const Connections = () => {
         >
             <div className="w-[95%] md:w-[88%] lg:w-[85%] xl:w-[73%] max-w-360 relative z-10 flex flex-col justify-center items-center gap-8 sm:gap-10 xl:gap-10">
                 {/* Header */}
-                <div className="text-center flex flex-col sm:flex-row flex-wrap justify-center items-center gap-2">
+                <div data-aos="fade-up" className="text-center flex flex-col sm:flex-row flex-wrap justify-center items-center gap-2">
                     <h2 className="text-h3 md:text-h2 leading-12.75 font-normal font-serif text-black">
                         A Smarter Way To{" "}
                         <span className="text-h3 md:text-h2 leading-12.75 font-normal font-serif text-primary">
@@ -15,7 +15,7 @@ const Connections = () => {
                     </h2>
                 </div>
                 {/* Content Body */}
-                <div className="flex flex-col gap-5 text-[15px] lg:text-body text-text-body font-normal text-center">
+                <div data-aos="fade-up" data-aos-delay="100" className="flex flex-col gap-5 text-[15px] lg:text-body text-text-body font-normal text-center">
                     <p>
                         Confidence and comfort are everything in the online courting world.
                         Women have the power to take the first step by simply swiping right

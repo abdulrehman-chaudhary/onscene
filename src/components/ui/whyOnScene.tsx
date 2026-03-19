@@ -22,20 +22,20 @@ const WhyOnScene = () => {
         <section className="w-full flex justify-center py-12 md:py-20 lg:py-24 bg-white" id="why-on-scene">
             <div className="w-[95%] md:w-[88%] lg:w-[85%] xl:w-[85%] max-w-360 flex flex-col gap-12 lg:gap-16 xl:gap-30">
                 {/* Heading */}
-                <div className="text-center w-full">
+                <div data-aos="fade-up" className="text-center w-full">
                     <h2 className="text-4xl md:text-5xl lg:text-h1 font-bold font-gilroy leading-12.75 text-black">
                         Why <span className="text-primary">On Scene</span>?
                     </h2>
                 </div>
-                <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10 lg:gap-5">
+                <div className="flex flex-col xl:flex-row items-center justify-between gap-10 lg:gap-8">
                     {/* Left Text */}
-                    <div className="w-full lg:w-1/3 xl:w-[40%] flex flex-col gap-6 lg:gap-8text-center lg:text-left">
+                    <div data-aos="fade-right" className="w-full xl:w-[40%] flex flex-col gap-6 lg:gap-8 text-center xl:text-left">
                         <h3 className="text-[30px] lg:text-h2 font-bold font-gilroy leading-[1.2] text-black">
                             Connect With Someone Special, <span className="text-primary">In Your Favorite Places</span>
                         </h3>
                     </div>
                     {/* Right Carousel */}
-                    <div className="w-full lg:w-2/3 xl:w-[60%] overflow-hidden" ref={emblaRef}>
+                    <div data-aos="fade-left" className="w-full xl:w-[60%] overflow-hidden" ref={emblaRef}>
                         <div className="flex touch-pan-y flex-row gap-4 lg:gap-6 pl-2 lg:pl-0 cursor-grab active:cursor-grabbing">
                             {carouselImages.map((image, index) => (
                                 <div

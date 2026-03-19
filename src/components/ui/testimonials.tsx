@@ -55,7 +55,7 @@ const Testimonials = () => {
       id="testimonials"
     >
       <div className="w-[95%] md:w-[88%] lg:w-[85%] xl:w-[70%] max-w-7xl flex flex-col md:flex-col items-center md:items-start justify-between gap-10">
-        <div className="flex flex-col w-full gap-7.5">
+        <div data-aos="fade-up" className="flex flex-col w-full gap-7.5">
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-[40px] font-normal font-serif leading-tight text-black">
               Hear From Our Users
